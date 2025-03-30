@@ -1,0 +1,69 @@
+body{
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#main_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#input_name{
+    background-color: rgb(226, 106, 66);
+    border: 0px;
+    border-radius: 4px;
+    height: 20px;
+    margin-top: 5px;
+    outline: 0px;
+}
+#input_name::placeholder{
+    color: white;
+}
+#input_message{
+    background-color: rgb(226, 106, 66);
+    border: 0px;
+    border-radius: 4px;
+    height: 20px;
+    margin-top: 5px;
+    outline: 0px;
+}
+#input_message::placeholder{
+    color: white;
+}
+#send_button{
+    background-color: rgb(226, 106, 66);
+    border: 0px;
+    border-radius: 4px;
+    height: 20px;
+    margin-top: 5px;
+    color: white;
+}
+#send_button:hover{
+    background-color: rgb(235, 100, 56);
+    border: 0px;
+    border-radius: 4px;
+    height: 20px;
+    margin-top: 5px;
+    color: white;
+}
+#send_button:active{
+    background-color: rgb(225, 116, 79);
+    border: 0px;
+    border-radius: 4px;
+    height: 20px;
+    margin-top: 5px;
+    color: white;
+}
+#messages_p{
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+}
